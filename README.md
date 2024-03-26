@@ -21,3 +21,6 @@ ErrorDocument 404 "https://shattereddisk.github.io/rickroll/rickroll.mp4"
 ErrorDocument 302 "https://shattereddisk.github.io/rickroll/rickroll.mp4"
 ```
 If  one of the ips calls your webpage they get redirected to a rick roll.
+
+Note:
+You need to restart the apache2 server to make it work
