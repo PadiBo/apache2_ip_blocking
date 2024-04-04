@@ -14,7 +14,7 @@ edit your /etc/apache2/apache2.conf and add the following lines:
 All IPs and ranges tryed to access specific paths like phpmyAdmin or Login pages.
 If you really want to annoy those fuckers, add this at the end of your apache2.conf:
 ```
-#CUSTOM REDIRECT 403
+#CUSTOM REDIRECT
 ErrorDocument 400 "https://shattereddisk.github.io/rickroll/rickroll.mp4"
 ErrorDocument 403 "https://shattereddisk.github.io/rickroll/rickroll.mp4"
 ErrorDocument 404 "https://shattereddisk.github.io/rickroll/rickroll.mp4"
